@@ -8,7 +8,9 @@ env:
   AZURE_APP_PLAN: actions-ttt-deployment
   AZURE_LOCATION: '"West Europe"'
   AZURE_WEBAPP_NAME: msgorgo-ttt-app
-
+  DOCKER_IMAGE_NAME: msgorgo-azure-ttt 
+  IMAGE_REGISTRY_URL: docker.pkg.github.com
+  
 jobs:
   build:
     runs-on: ubuntu-latest
